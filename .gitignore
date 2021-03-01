@@ -1,0 +1,4 @@
+.T-Rex 0.19.11
+*.zip
+.idea
+__pycache__

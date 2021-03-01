@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>764</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab">
+          <attribute name="title">
+           <string>配置界面</string>
+          </attribute>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_8" stretch="3,5">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,4,7">
+               <item>
+                <widget class="QGroupBox" name="groupBox">
+                 <property name="title">
+                  <string>币种</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_7">
+                  <item>
+                   <widget class="QComboBox" name="coinkind_comboBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>120</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>etchash</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>astralhash</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>balloon</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>bcd</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>bitcore</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>c11</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>dedal</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>ethash</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>geek</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>hmq1725</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>honeycomb</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>jeonghash</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>kawpow</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>lyra2z</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>megabtx</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>megamec</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>mtp</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>mtp-tcr</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>multi</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>octopus</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>padihash</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>pawelhash</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>phi</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>polytimos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>progpow</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>progpow-veil</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>progpow-veriblock</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>progpowz</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>sha256q</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>sha256t</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>skunk</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>sonoa</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>tensority</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>timetravel</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>tribus</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x11r</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x16r</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x16rt</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x16rv2</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x16s</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x17</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x21s</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x22i</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x25x</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>x33</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_2">
+                 <property name="title">
+                  <string>矿池</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_2">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="5,9">
+                      <item>
+                       <widget class="QLabel" name="label">
+                        <property name="text">
+                         <string>链接方式</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QComboBox" name="link_comboBox">
+                        <item>
+                         <property name="text">
+                          <string>ssl</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>tcp</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="5,9">
+                      <item>
+                       <widget class="QLabel" name="label_2">
+                        <property name="text">
+                         <string>矿池服务器地址</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="server_lineEdit"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="5,9">
+                      <item>
+                       <widget class="QLabel" name="label_3">
+                        <property name="text">
+                         <string>端口</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="port_lineEdit"/>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_3">
+                   <property name="title">
+                    <string>钱包地址</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_5">
+                    <item>
+                     <widget class="QLineEdit" name="wallet_lineEdit">
+                      <property name="font">
+                       <font>
+                        <pointsize>13</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_5">
+                   <property name="title">
+                    <string>T-Rex程序地址</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_7">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_4">
+                      <item>
+                       <widget class="QLineEdit" name="miner_lineEdit"/>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="findprogram_pushButton">
+                        <property name="text">
+                         <string>打开程序</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="5,5">
+               <item>
+                <widget class="QGroupBox" name="groupBox_4">
+                 <property name="title">
+                  <string>命令行结果显示</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_12">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="0">
+                    <item>
+                     <widget class="QTextEdit" name="textEdit">
+                      <property name="font">
+                       <font>
+                        <pointsize>12</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                 <item>
+                  <spacer name="verticalSpacer">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_10">
+                   <item>
+                    <spacer name="horizontalSpacer_3">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>288</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="startmine_pushButton">
+                     <property name="minimumSize">
+                      <size>
+                       <width>150</width>
+                       <height>80</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>18</pointsize>
+                       <weight>75</weight>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>开始挖矿</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>288</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="qrc_ico.qrc"/>
+ </resources>
+ <connections/>
+</ui>
